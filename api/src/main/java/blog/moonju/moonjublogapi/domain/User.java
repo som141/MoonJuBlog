@@ -31,15 +31,16 @@ public class User {
     @Column(length = 20, nullable = false, name = "tel_number")
     private String telNumber;
 
-    @Lob @Column(nullable = false)
+    @Lob
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String address;
 
     @Lob
-    @Column(name = "address_detail")
+    @Column(name = "address_detail", columnDefinition = "TEXT")
     private String addressDetail;
 
     @Lob
-    @Column(name = "profile_image")
+    @Column(name = "profile_image", columnDefinition = "TEXT")
     private String profileImage;
 
     @CreationTimestamp

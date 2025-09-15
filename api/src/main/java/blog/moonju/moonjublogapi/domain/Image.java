@@ -3,6 +3,8 @@ package blog.moonju.moonjublogapi.domain;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
 
 import java.time.LocalDateTime;
 
@@ -25,8 +27,9 @@ public class Image {
     @Column(length = 500, nullable = false)
     private String url;
 
-    @Column(nullable = false)
-    private Integer position;
+    @JdbcTypeCode(SqlTypes.SMALLINT)
+    @Column(nullable = false, columnDefinition = "SMALLINT UNSIGNED")
+    private int position=0;
 
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
