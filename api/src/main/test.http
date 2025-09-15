@@ -1,0 +1,85 @@
+### Health - (남겨둔 엔드포인트로)
+GET http://localhost:4000/api/health
+
+### Alternative healthz
+GET http://localhost:4000/api/healthz
+
+
+### SignUp (이메일은 실행 시각으로 유니크)
+POST http://localhost:4000/api/signUp
+Content-Type: application/json
+
+{
+  "email": "user@test.com",
+  "password": "Passw0rd!",
+  "nickname": "user",
+  "tellnumber": "010-1111-2222",
+  "address": "서울시 강남구",
+  "addressDetail": "역삼동"
+}
+
+
+### SignIn (위에서 만든 이메일/패스워드로)
+POST http://localhost:4000/api/signIn
+Content-Type: application/json
+
+{
+  "email": "user@test.com",
+  "password": "Passw0rd!"
+}
+
+
+### Create Board (writerId는 실제 users.id로 교체)
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F%25EB%258B%25A8%25EA%25B5%25AD%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590&psig=AOvVaw2PR0FxwqBVV4nhtWfeZuf_&ust=1758024849223000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJib6Jjf2o8DFQAAAAAdAAAAABAE"]
+}
+
+
+### List Boards
+GET http://localhost:4000/api/boards?page=0&size=10
+
+
+### Board Detail (조회수 +1)
+GET http://localhost:4000/api/boards/2
+
+
+### Update Board
+PUT http://localhost:4000/api/boards/2
+Content-Type: application/json
+
+{
+  "title": "수정된 제목",
+  "content": "수정된 내용",
+  "images": ["https://example.com/3.png"]
+}
+
+
+### Add Comment
+POST http://localhost:4000/api/boards/comments
+Content-Type: application/json
+
+{
+  "boardId": 2,
+  "userId": 2,
+  "content": "안녕하세요! 댓글입니다."
+}
+
+
+### Delete Comment
+DELETE http://localhost:4000/api/boards/comments/2
+
+
+### Favorite Add/Remove
+POST  http://localhost:4000/api/boards/2/favorite?userId=2
+
+DELETE http://localhost:4000/api/boards/1/favorite?userId=1
+
+
+### Board Detail (verify counts changed by triggers)
+GET http://localhost:4000/api/boards/2

@@ -41,7 +41,11 @@ public class Board {
 
     @Column(name="view_count", nullable=false)
     private int viewCount = 0;     // 앱에서 증가 가능
-
-    @OneToMany(mappedBy="board", cascade = CascadeType.ALL, orphanRemoval = true)
+    @Builder.Default
+    @OneToMany(mappedBy = "board",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true)
     private List<Image> images = new ArrayList<>();
+
+
 }
