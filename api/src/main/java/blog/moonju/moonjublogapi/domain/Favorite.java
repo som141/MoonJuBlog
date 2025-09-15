@@ -30,5 +30,12 @@ public class Favorite {
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
+
+    public static Favorite of(Board b, User u){
+        return Favorite.builder()
+                .id(new FavoriteId(b.getId(), u.getId()))
+                .board(b).user(u)
+                .build();
+    }
 }
 
