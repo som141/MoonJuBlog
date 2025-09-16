@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14075ed2-75bc-4158-a758-38402cb9f079" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MoonJuBlog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/blog/moonju/moonjublogapi/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/blog/moonju/moonjublogapi/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Board$BoardBuilder.class.uniqueId19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Board.class.uniqueId14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardController.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos$CreateRequest.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos$Detail.class.uniqueId18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos$ImageItem.class.uniqueId24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos$ListItem.class.uniqueId13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos$PagedList.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos$UpdateRequest.class.uniqueId15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardDtos.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardRepository.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/BoardService.class.uniqueId21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Comment$CommentBuilder.class.uniqueId20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Comment.class.uniqueId12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/CommentDtos$CreateRequest.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/CommentDtos$Item.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/CommentDtos.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/CommentRepository.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Favorite$FavoriteBuilder.class.uniqueId23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Favorite.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/FavoriteRepository.class.uniqueId17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/FavoriteService.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Image$ImageBuilder.class.uniqueId16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/Image.class.uniqueId22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/ImageRepository.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/blog/moonju/moonjublogapi/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/blog/moonju/moonjublogapi/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/board/[id]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/board/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/board/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/profile/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/signin/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/signup/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/app/write/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/auth-guard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/comment-form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/comment-item.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/comment-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/form-field.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/like-button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/page-shell.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/post-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/post-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/skeletons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/theme-provider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/accordion.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/alert-dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/alert.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/aspect-ratio.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/avatar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/badge.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/breadcrumb.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/carousel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/chart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/checkbox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/collapsible.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/command.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/context-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/drawer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/dropdown-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/hover-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/input-otp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/menubar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/navigation-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/pagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/popover.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/progress.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/radio-group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/resizable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/scroll-area.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/separator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/sheet.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/skeleton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/slider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/sonner.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/switch.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/table.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/tabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/toast.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/toaster.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/toggle-group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/toggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/tooltip.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/use-mobile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/components/ui/use-toast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/hooks/use-mobile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/hooks/use-toast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/lib/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/lib/auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/lib/mock-data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/lib/validations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/modern-css-layout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/nextjs-blog-development.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/placeholder-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/placeholder-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/placeholder-user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/react-19-features.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/tailwindcss-responsive-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/typescript-5-0-guide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/public/web-performance-optimization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moonju-blog-front/types/index.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/api">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="moonju-blog-api" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="com.intellij.jpb.JpaEntity" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;som141&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/som141/MoonJuBlog.git&quot;,
+    &quot;accountId&quot;: &quot;b93087d9-6e10-44d4-bd30-a012b2afb407&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MigrationScriptOptions">
+    <option name="ignoreImplicitObjects" value="true" />
+    <option name="ignoreSourceCode" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="326W8UWeOsxTs3kQ58SVfseo8G8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.ERD/Dockerfile.executor": "Run",
+    "Gradle.api [dependencies].executor": "Run",
+    "Gradle.api 빌드.executor": "Run",
+    "HTTP 요청.test | Add Comment.executor": "Run",
+    "HTTP 요청.test | Alternative healthz.executor": "Run",
+    "HTTP 요청.test | Board Detail (verify counts changed by triggers).executor": "Run",
+    "HTTP 요청.test | Board Detail (조회수 +1).executor": "Run",
+    "HTTP 요청.test | Create Board (writerId는 실제 users.id로 교체).executor": "Run",
+    "HTTP 요청.test | Delete Comment.executor": "Run",
+    "HTTP 요청.test | Favorite Add/Remove.executor": "Run",
+    "HTTP 요청.test | Health - (남겨둔 엔드포인트로).executor": "Run",
+    "HTTP 요청.test | List Boards.executor": "Run",
+    "HTTP 요청.test | SignIn (위에서 만든 이메일/패스워드로).executor": "Run",
+    "HTTP 요청.test | SignUp (이메일은 실행 시각으로 유니크).executor": "Run",
+    "HTTP 요청.test | Update Board.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/s0302/OneDrive/바탕 화면",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "문제",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "CodeWithMe",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s0302\OneDrive\바탕 화면\MoonJuBlog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="test | Board Detail (verify counts changed by triggers)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="12" requestIdentifier="Board Detail (verify counts changed by triggers)" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | Favorite Add/Remove" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="11" requestIdentifier="Favorite Add/Remove" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | Health - (남겨둔 엔드포인트로)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" requestIdentifier="Health - (남겨둔 엔드포인트로)" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | SignIn (위에서 만든 이메일/패스워드로)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="4" requestIdentifier="SignIn (위에서 만든 이메일/패스워드로)" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | SignUp (이메일은 실행 시각으로 유니크)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="3" requestIdentifier="SignUp (이메일은 실행 시각으로 유니크)" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="moonju-blog-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="blog.moonju.moonjublogapi.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.test | SignIn (위에서 만든 이메일/패스워드로)" />
+        <item itemvalue="HTTP 요청.test | Health - (남겨둔 엔드포인트로)" />
+        <item itemvalue="HTTP 요청.test | SignUp (이메일은 실행 시각으로 유니크)" />
+        <item itemvalue="HTTP 요청.test | Board Detail (verify counts changed by triggers)" />
+        <item itemvalue="HTTP 요청.test | Favorite Add/Remove" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="14075ed2-75bc-4158-a758-38402cb9f079" name="변경" comment="" />
+      <created>1756741344025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756741344025</updated>
+      <workItem from="1756741345472" duration="1532000" />
+      <workItem from="1756809407970" duration="617000" />
+      <workItem from="1756912083499" duration="981000" />
+      <workItem from="1756977837587" duration="3689000" />
+      <workItem from="1756986033441" duration="1788000" />
+      <workItem from="1756988924022" duration="463000" />
+      <workItem from="1756989399118" duration="6254000" />
+      <workItem from="1757094550276" duration="67000" />
+      <workItem from="1757152707016" duration="10657000" />
+      <workItem from="1757228962238" duration="9216000" />
+      <workItem from="1757327017503" duration="2470000" />
+      <workItem from="1757332491897" duration="770000" />
+      <workItem from="1757333730064" duration="4495000" />
+      <workItem from="1757353533959" duration="599000" />
+      <workItem from="1757449207763" duration="13000" />
+      <workItem from="1757508283764" duration="2739000" />
+      <workItem from="1757512473876" duration="786000" />
+      <workItem from="1757604055045" duration="1187000" />
+      <workItem from="1757817991203" duration="1723000" />
+      <workItem from="1757821567987" duration="14940000" />
+      <workItem from="1757923045017" duration="23450000" />
+      <workItem from="1758024699515" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

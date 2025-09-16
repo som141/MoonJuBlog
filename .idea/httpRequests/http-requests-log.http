@@ -1,0 +1,16 @@
+POST http://localhost:4000/api/signIn
+Content-Type: application/json
+Content-Length: 57
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "user@test.com",
+  "password": "Passw0rd!"
+}
+
+<> 2025-09-16T001854.200.json
+
+###
+
