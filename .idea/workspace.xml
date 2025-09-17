@@ -4,7 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14075ed2-75bc-4158-a758-38402cb9f079" name="변경" comment="" />
+    <list default="true" id="14075ed2-75bc-4158-a758-38402cb9f079" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/blog/moonju/moonjublogapi/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/blog/moonju/moonjublogapi/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/board/[id]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/board/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/board/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/fonts/GeistMonoVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/profile/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/signin/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/signup/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/app/write/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/auth-guard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/comment-form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/comment-item.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/comment-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/form-field.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/like-button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/page-shell.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/post-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/post-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/skeletons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/avatar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/skeleton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/tabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/lib/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/lib/auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/lib/mock-data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/lib/validations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front/types/index.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,63 +138,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.ERD/Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.api [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.api 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Add Comment.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Alternative healthz.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Board Detail (verify counts changed by triggers).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Board Detail (조회수 +1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Create Board (writerId는 실제 users.id로 교체).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Delete Comment.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Favorite Add/Remove.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Health - (남겨둔 엔드포인트로).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | List Boards.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | SignIn (위에서 만든 이메일/패스워드로).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | SignUp (이메일은 실행 시각으로 유니크).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.test | Update Board.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/s0302/OneDrive/바탕 화면&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.ERD/Dockerfile.executor": "Run",
+    "Gradle.api [dependencies].executor": "Run",
+    "Gradle.api 빌드.executor": "Run",
+    "HTTP 요청.test | Add Comment.executor": "Run",
+    "HTTP 요청.test | Alternative healthz.executor": "Run",
+    "HTTP 요청.test | Board Detail (verify counts changed by triggers).executor": "Run",
+    "HTTP 요청.test | Board Detail (조회수 +1).executor": "Run",
+    "HTTP 요청.test | Create Board (writerId는 실제 users.id로 교체).executor": "Run",
+    "HTTP 요청.test | Delete Comment.executor": "Run",
+    "HTTP 요청.test | Favorite Add/Remove.executor": "Run",
+    "HTTP 요청.test | Health - (남겨둔 엔드포인트로).executor": "Run",
+    "HTTP 요청.test | List Boards.executor": "Run",
+    "HTTP 요청.test | SignIn (위에서 만든 이메일/패스워드로).executor": "Run",
+    "HTTP 요청.test | SignUp (이메일은 실행 시각으로 유니크).executor": "Run",
+    "HTTP 요청.test | Update Board.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/s0302/OneDrive/바탕 화면/MoonJuBlog/api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "문제",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "CodeWithMe",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Application.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s0302\OneDrive\바탕 화면\MoonJuBlog" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="test | Board Detail (verify counts changed by triggers)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="12" requestIdentifier="Board Detail (verify counts changed by triggers)" runType="단일 요청 실행">
-      <method v="2" />
+  <component name="RunManager" selected="애플리케이션.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Java/jdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="blog.moonju.moonjublogapi.Application" />
+      <module name="moonju-blog-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blog.moonju.moonjublogapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="test | Favorite Add/Remove" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="11" requestIdentifier="Favorite Add/Remove" runType="단일 요청 실행">
+    <configuration name="test | Board Detail (verify counts changed by triggers)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="12" requestIdentifier="Board Detail (verify counts changed by triggers)" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="test | Health - (남겨둔 엔드포인트로)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" requestIdentifier="Health - (남겨둔 엔드포인트로)" runType="단일 요청 실행">
@@ -163,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Application" />
         <item itemvalue="HTTP 요청.test | SignIn (위에서 만든 이메일/패스워드로)" />
         <item itemvalue="HTTP 요청.test | Health - (남겨둔 엔드포인트로)" />
         <item itemvalue="HTTP 요청.test | SignUp (이메일은 실행 시각으로 유니크)" />
         <item itemvalue="HTTP 요청.test | Board Detail (verify counts changed by triggers)" />
-        <item itemvalue="HTTP 요청.test | Favorite Add/Remove" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +282,10 @@
       <workItem from="1757923045017" duration="23450000" />
       <workItem from="1758024699515" duration="79000" />
       <workItem from="1758115550784" duration="26000" />
+      <workItem from="1758115601183" duration="58000" />
+      <workItem from="1758115669585" duration="76000" />
+      <workItem from="1758115758067" duration="905000" />
+      <workItem from="1758116680742" duration="117000" />
     </task>
     <servers />
   </component>

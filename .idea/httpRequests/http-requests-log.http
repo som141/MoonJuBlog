@@ -1,3 +1,312 @@
+GET http://localhost:4000/api/health
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T221054.200.json
+
+###
+
+POST http://localhost:4000/api/signUp
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "user@test.com",
+  "password": "Passw0rd!",
+  "nickname": "user",
+  "tellnumber": "010-1111-2222",
+  "address": "서울시 강남구",
+  "addressDetail": "역삼동"
+}
+
+<> 2025-09-15T221048.400.json
+
+###
+
+GET http://localhost:4000/api/boards/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T212305.200.json
+
+###
+
+POST http://localhost:4000/api/boards/2/favorite?userId=2
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+DELETE http://localhost:4000/api/boards/1/favorite?userId=1
+
+<> 2025-09-15T212254.200.json
+
+###
+
+POST http://localhost:4000/api/boards/2/favorite?userId=2
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+DELETE http://localhost:4000/api/boards/1/favorite?userId=1
+
+<> 2025-09-15T212224.200.json
+
+###
+
+DELETE http://localhost:4000/api/boards/comments/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T212153.200.json
+
+###
+
+DELETE http://localhost:4000/api/boards/comments/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T212148.404.json
+
+###
+
+POST http://localhost:4000/api/boards/comments
+Content-Type: application/json
+Content-Length: 83
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "boardId": 2,
+  "userId": 2,
+  "content": "안녕하세요! 댓글입니다."
+}
+
+<> 2025-09-15T212128.200.json
+
+###
+
+PUT http://localhost:4000/api/boards/2
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "수정된 제목",
+  "content": "수정된 내용",
+  "images": ["https://example.com/3.png"]
+}
+
+<> 2025-09-15T212117.200.json
+
+###
+
+GET http://localhost:4000/api/boards/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T212111.200.json
+
+###
+
+GET http://localhost:4000/api/boards/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T212044.404.json
+
+###
+
+GET http://localhost:4000/api/boards?page=0&size=10
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T212037.200.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 386
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F%25EB%258B%25A8%25EA%25B5%25AD%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590&psig=AOvVaw2PR0FxwqBVV4nhtWfeZuf_&ust=1758024849223000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJib6Jjf2o8DFQAAAAAdAAAAABAE"]
+}
+
+<> 2025-09-15T212028.201.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 386
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F%25EB%258B%25A8%25EA%25B5%25AD%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590&psig=AOvVaw2PR0FxwqBVV4nhtWfeZuf_&ust=1758024849223000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJib6Jjf2o8DFQAAAAAdAAAAABAE"]
+}
+
+<> 2025-09-15T211959.201.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 386
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F%25EB%258B%25A8%25EA%25B5%25AD%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590&psig=AOvVaw2PR0FxwqBVV4nhtWfeZuf_&ust=1758024849223000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJib6Jjf2o8DFQAAAAAdAAAAABAE"]
+}
+
+<> 2025-09-15T211725.500.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 386
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F%25EB%258B%25A8%25EA%25B5%25AD%25EB%258C%2580%25ED%2595%2599%25EA%25B5%2590&psig=AOvVaw2PR0FxwqBVV4nhtWfeZuf_&ust=1758024849223000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJib6Jjf2o8DFQAAAAAdAAAAABAE"]
+}
+
+<> 2025-09-15T211502.500.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 82
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2
+}
+
+<> 2025-09-15T211229.201.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://example.com/1.png","https://example.com/2.png"]
+}
+
+<> 2025-09-15T211113.500.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://example.com/1.png","https://example.com/2.png"]
+}
+
+<> 2025-09-15T211035.500.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 2,
+  "images": ["https://example.com/1.png","https://example.com/2.png"]
+}
+
+<> 2025-09-15T210345.500.json
+
+###
+
+POST http://localhost:4000/api/boards
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "첫 글입니다",
+  "content": "내용입니다",
+  "writerId": 1,
+  "images": ["https://example.com/1.png","https://example.com/2.png"]
+}
+
+<> 2025-09-15T210237.500.json
+
+###
+
 POST http://localhost:4000/api/signIn
 Content-Type: application/json
 Content-Length: 57
@@ -10,7 +319,79 @@ Accept: */*
   "password": "Passw0rd!"
 }
 
-<> 2025-09-16T001854.200.json
+<> 2025-09-15T210225.200.json
+
+###
+
+POST http://localhost:4000/api/signIn
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "user1@test.com",
+  "password": "Passw0rd!"
+}
+
+<> 2025-09-15T210214.401.json
+
+###
+
+POST http://localhost:4000/api/signIn
+Content-Type: application/json
+Content-Length: 57
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "user@test.com",
+  "password": "Passw0rd!"
+}
+
+<> 2025-09-15T210206.200.json
+
+###
+
+POST http://localhost:4000/api/signUp
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "user@test.com",
+  "password": "Passw0rd!",
+  "nickname": "user",
+  "tellnumber": "010-1111-2222",
+  "address": "서울시 강남구",
+  "addressDetail": "역삼동"
+}
+
+<> 2025-09-15T210148.200.json
+
+###
+
+GET http://localhost:4000/api/healthz
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T210005.404.json
+
+###
+
+GET http://localhost:4000/api/health
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-09-15T210002.200.json
 
 ###
 
