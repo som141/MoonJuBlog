@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14075ed2-75bc-4158-a758-38402cb9f079" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/blog/moonju/moonjublogapi/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/blog/moonju/moonjublogapi/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/compileTransaction/stash-dir/AppConfig.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/front/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/front/.eslintrc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/front/.gitignore" beforeDir="false" />
@@ -62,6 +71,18 @@
       <change beforePath="$PROJECT_DIR$/front/front/tailwind.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/front/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/front/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modern-css-layout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nextjs-blog-development.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/placeholder-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/placeholder-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/placeholder-user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/react-19-features.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tailwindcss-responsive-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/typescript-5-0-guide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web-performance-optimization.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +106,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="moonju-blog-api" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="moonju-blog-api" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="moonju-blog-api" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -161,6 +193,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application (1).executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -170,8 +203,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "문제",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "CodeWithMe",
     "vue.rearranger.settings.migration": "true",
@@ -187,11 +220,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s0302\OneDrive\바탕 화면\MoonJuBlog\front" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s0302\OneDrive\바탕 화면\MoonJuBlog" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Java/jdk-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -208,9 +244,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test | Board Detail (verify counts changed by triggers)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="12" requestIdentifier="Board Detail (verify counts changed by triggers)" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
     <configuration name="test | Health - (남겨둔 엔드포인트로)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" requestIdentifier="Health - (남겨둔 엔드포인트로)" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
@@ -220,8 +253,21 @@
     <configuration name="test | SignUp (이메일은 실행 시각으로 유니크)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/src/main/test.http" index="3" requestIdentifier="SignUp (이메일은 실행 시각으로 유니크)" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blog.moonju.moonju-blog-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="blog.moonju.moonjublogapi.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blog.moonju.moonjublogapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="moonju-blog-api.main" />
+      <module name="blog.moonju.moonju-blog-api.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="blog.moonju.moonjublogapi.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="애플리케이션.Application" />
         <item itemvalue="HTTP 요청.test | SignIn (위에서 만든 이메일/패스워드로)" />
         <item itemvalue="HTTP 요청.test | Health - (남겨둔 엔드포인트로)" />
         <item itemvalue="HTTP 요청.test | SignUp (이메일은 실행 시각으로 유니크)" />
-        <item itemvalue="HTTP 요청.test | Board Detail (verify counts changed by triggers)" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +332,8 @@
       <workItem from="1758115669585" duration="76000" />
       <workItem from="1758115758067" duration="905000" />
       <workItem from="1758116680742" duration="117000" />
+      <workItem from="1758116877774" duration="2843000" />
+      <workItem from="1758119742859" duration="43000" />
     </task>
     <servers />
   </component>
