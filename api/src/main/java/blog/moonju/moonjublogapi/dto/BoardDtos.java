@@ -20,15 +20,25 @@ public class BoardDtos {
     ){}
 
     public record ListItem(
-            Long boardId, String title,
-            Long writerId, String writerNickname,
-            int favoriteCount, int commentCount, int viewCount,
+            Long boardId,
+            String title,
+            Long writerId,
+            String writerNickname,
+            String preview,       // 게시물 내용 일부를 요약
+            String thumbnailUrl,  // 이미지 URL
+            int favoriteCount,
+            int commentCount,
+            int viewCount,
             LocalDateTime createdAt
-    ){
-        public static ListItem of(Board b){
+    ) {
+        public static ListItem of(Board b) {
+            String preview = b.getContent() != null ? b.getContent().substring(0, Math.min(100, b.getContent().length())) : "";
+            String thumbnail = b.getImages().isEmpty() ? null : b.getImages().get(0).getUrl();
             return new ListItem(
                     b.getId(), b.getTitle(),
                     b.getWriter().getId(), b.getWriter().getNickname(),
+                    preview,
+                    thumbnail,
                     b.getFavoriteCount(), b.getCommentCount(), b.getViewCount(),
                     b.getCreatedAt()
             );

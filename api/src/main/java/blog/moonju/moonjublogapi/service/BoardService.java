@@ -40,11 +40,18 @@ public class BoardService {
     }
 
     @Transactional(readOnly = true)
-    public PagedList list(int page, int size){
-        Page<Board> p = boardRepository.findAll(PageRequest.of(page, size, Sort.by(Sort.Direction.DESC,"id")));
-        List<ListItem> items = p.getContent().stream().map(ListItem::of).toList();
+    public PagedList list(int page, int size, String sort) {
+        Sort sorting;
+        if ("popular".equals(sort)) {
+            sorting = Sort.by(Sort.Direction.DESC, "favoriteCount");
+        } else { // latest 또는 기본
+            sorting = Sort.by(Sort.Direction.DESC, "createdAt");
+        }
+        Page<Board> p = boardRepository.findAll(PageRequest.of(page, size, sorting));
+        List<BoardDtos.ListItem> items = p.getContent().stream().map(BoardDtos.ListItem::of).toList();
         return new PagedList(items, page, size, p.getTotalElements(), p.getTotalPages());
     }
+
 
     @Transactional
     public Detail readAndIncreaseView(Long id){

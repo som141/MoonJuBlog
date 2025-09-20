@@ -27,9 +27,10 @@ public class BoardController {
     }
 
     @GetMapping
-    public PagedList list(@RequestParam(defaultValue="0") int page,
-                          @RequestParam(defaultValue="10") int size){
-        return boardService.list(page, size);
+    public PagedList list(@RequestParam(defaultValue = "0") int page,
+                          @RequestParam(defaultValue = "10") int size,
+                          @RequestParam(defaultValue = "latest") String sort) {
+        return boardService.list(page, size, sort);
     }
 
     @GetMapping("/{id}")
