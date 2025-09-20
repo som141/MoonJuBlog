@@ -49,7 +49,8 @@ export default function ProfilePage() {
   const fetchMyPosts = async () => {
     setPostsLoading(true)
     try {
-      const response = await api.get<BoardListResponse>("/boards?page=0&size=10")
+      // Note: This would need backend support to filter by user
+      const response = await api.get<BoardListResponse>("/board?page=0&size=10")
       setMyPosts(response.data.content)
     } catch (error: any) {
       console.error("Failed to fetch user posts:", error)

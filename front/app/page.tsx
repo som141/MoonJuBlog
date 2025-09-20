@@ -32,11 +32,11 @@ export default function HomePage() {
     setLoading(true)
     try {
       // Fetch recent posts
-      const recentResponse = await api.get<BoardListResponse>("/boards?page=0&size=6&sort=latest")
+      const recentResponse = await api.get<BoardListResponse>("/board?page=0&size=6&sort=latest")
       setRecentPosts(recentResponse.data.content)
 
       // Fetch popular posts
-      const popularResponse = await api.get<BoardListResponse>("/boards?page=0&size=3&sort=popular")
+      const popularResponse = await api.get<BoardListResponse>("/board?page=0&size=3&sort=popular")
       setPopularPosts(popularResponse.data.content)
     } catch (error: any) {
       console.warn("API not available, using mock data:", error.message)

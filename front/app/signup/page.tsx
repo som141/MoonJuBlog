@@ -26,13 +26,12 @@ export default function SignUpPage() {
     setError,
   } = useForm<SignUpFormData>({
     resolver: zodResolver(signUpSchema),
-    mode: "onChange",
   })
 
   const onSubmit = async (data: SignUpFormData) => {
     setIsLoading(true)
     try {
-      const response = await api.post<SignResponse>("/api/signUp", data)
+      const response = await api.post<SignResponse>("/signUp", data)
 
       if (response.data.code === "su") {
         if (response.data.token) {

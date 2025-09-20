@@ -46,7 +46,7 @@ export default function BoardPage() {
         ...(sortBy !== "latest" && { sort: sortBy }),
       })
 
-      const response = await api.get<BoardListResponse>(`/boards?${params}`)
+      const response = await api.get<BoardListResponse>(`/board?${params}`)
       setPosts(response.data.content)
       setTotalPages(Math.ceil(response.data.total / 12))
     } catch (error: any) {

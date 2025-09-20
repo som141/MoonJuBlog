@@ -27,7 +27,6 @@ export function CommentForm({ postId, onCommentAdded }: CommentFormProps) {
     setError,
   } = useForm<CreateCommentFormData>({
     resolver: zodResolver(createCommentSchema),
-    mode: "onChange",
   })
 
   const onSubmit = async (data: CreateCommentFormData) => {

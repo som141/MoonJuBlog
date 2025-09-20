@@ -26,7 +26,6 @@ export default function WritePage() {
     setError,
   } = useForm<CreatePostFormData>({
     resolver: zodResolver(createPostSchema),
-    mode: "onChange",
     defaultValues: {
       images: [],
     },
@@ -40,14 +39,14 @@ export default function WritePage() {
   const onSubmit = async (data: CreatePostFormData) => {
     setIsLoading(true)
     try {
-      const response = await api.post("/boards", {
+      const response = await api.post("/board", {
         title: data.title,
         content: data.content,
         images: data.images?.filter((img) => img.trim() !== "") || [],
       })
 
       toast.success("게시글이 성공적으로 작성되었습니다!")
-      router.push(`/board/${response.data.boardId || ""}`)
+      router.push(`/board/${response.data.id || ""}`)
     } catch (error: any) {
       const message = error.response?.data?.message || "게시글 작성 중 오류가 발생했습니다."
       setError("root", { message })

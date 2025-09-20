@@ -12,7 +12,7 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
-@RestController @RequestMapping("/api/boards")
+@RestController @RequestMapping("/api/board")
 public class BoardController {
     private final BoardService boardService;
     private final FavoriteService favoriteService;

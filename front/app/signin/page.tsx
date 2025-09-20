@@ -22,31 +22,22 @@ export default function SignInPage() {
   const {
     register,
     handleSubmit,
-    formState: { errors, isValid },
+    formState: { errors },
     setError,
-    watch,
   } = useForm<SignInFormData>({
     resolver: zodResolver(signInSchema),
-    mode: "onChange",
   })
 
-  const watchedValues = watch()
-  console.log("[v0] Form values:", watchedValues)
-  console.log("[v0] Form errors:", errors)
-  console.log("[v0] Form isValid:", isValid)
-
   const onSubmit = async (data: SignInFormData) => {
-    if (isLoading) return
-
-    console.log("[v0] Form submitted with data:", data)
     setIsLoading(true)
     try {
-      const response = await api.post<SignResponse>("/api/signIn", data)
+      const response = await api.post<SignResponse>("/signIn", data)
 
       if (response.data.code === "su" && response.data.token) {
         setToken(response.data.token)
         toast.success("로그인에 성공했습니다!")
         router.push("/")
+        router.refresh()
       } else {
         setError("root", { message: response.data.message || "로그인에 실패했습니다." })
       }
@@ -93,7 +84,7 @@ export default function SignInPage() {
                 </div>
               )}
 
-              <Button type="submit" className="w-full" disabled={isLoading || !isValid}>
+              <Button type="submit" className="w-full" disabled={isLoading}>
                 {isLoading ? "로그인 중..." : "로그인"}
               </Button>
             </form>

@@ -31,7 +31,7 @@ export default function PostDetailPage() {
   const fetchPost = async () => {
     setLoading(true)
     try {
-      const response = await api.get<PostDetail>(`/boards/${postId}`)
+      const response = await api.get<PostDetail>(`/board/${postId}`)
       setPost(response.data)
     } catch (error: any) {
       console.warn("API not available, using mock data:", error.message)
