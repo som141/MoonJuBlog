@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/blogdb?allowPublicKeyRetrieval=true&sslMode=DISABLED&serverTimezone=Asia/Seoul&characterEncoding=utf8
     username: root
-    password: 123qazasd!
+    password: 9897
   jpa:
     hibernate:
       ddl-auto: validate
