@@ -10,5 +10,10 @@
         <module name="moonju-blog-api.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="21">
+      <module name="blog.moonju.moonju-blog-api" target="21" />
+      <module name="blog.moonju.moonju-blog-api.main" target="21" />
+      <module name="blog.moonju.moonju-blog-api.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

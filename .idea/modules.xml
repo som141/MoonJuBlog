@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MoonJuBlog.iml" filepath="$PROJECT_DIR$/.idea/MoonJuBlog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/moonju-blog-api.iml" filepath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moonju-blog-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/moonju-blog-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.test.iml" />
     </modules>
   </component>
 </project>
