@@ -5,20 +5,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14075ed2-75bc-4158-a758-38402cb9f079" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/moonju-blog-api.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/board/[id]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/board/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/board/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/profile/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/signin/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/signup/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/write/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/auth-guard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/comment-form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/comment-item.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/comment-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/form-field.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/like-button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/page-shell.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/post-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/post-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/skeletons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/theme-provider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/accordion.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/alert-dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/alert.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/aspect-ratio.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/avatar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/badge.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/breadcrumb.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/carousel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/chart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/checkbox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/collapsible.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/command.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/context-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/drawer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/dropdown-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/hover-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/input-otp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/menubar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/navigation-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/pagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/popover.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/progress.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/radio-group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/resizable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/scroll-area.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/separator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/sheet.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/skeleton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/slider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/sonner.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/switch.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/table.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/tabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/toast.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/toaster.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/toggle-group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/toggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/tooltip.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/use-mobile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/ui/use-toast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/front3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/hooks/use-mobile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/hooks/use-toast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lib/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lib/auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lib/mock-data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lib/validations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/modern-css-layout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/nextjs-blog-development.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/placeholder-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/placeholder-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/placeholder-user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/react-19-features.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/tailwindcss-responsive-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/typescript-5-0-guide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/web-performance-optimization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moon_ju_blog 명세서.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +176,12 @@
     &quot;assignee&quot;: &quot;som141&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/som141/MoonJuBlog.git",
-    "accountId": "277bcfd5-0f37-48dc-9c8c-c59f8aab9955"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/som141/MoonJuBlog.git&quot;,
+    &quot;accountId&quot;: &quot;277bcfd5-0f37-48dc-9c8c-c59f8aab9955&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -270,7 +366,8 @@
       <workItem from="1758116680742" duration="117000" />
       <workItem from="1758116877774" duration="2843000" />
       <workItem from="1758119742859" duration="43000" />
-      <workItem from="1761102328759" duration="504000" />
+      <workItem from="1761102328759" duration="1623000" />
+      <workItem from="1761108026148" duration="6000" />
     </task>
     <servers />
   </component>
